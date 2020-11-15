@@ -6,8 +6,8 @@ from botocore.config import Config
 
 session = boto3.Session(
     region_name="eu-west-2",
-    aws_access_key_id="AKIAIKW6OHS2HYDAQ5PQ",
-    aws_secret_access_key="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",
+    aws_access_key_id="SECRET",
+    aws_secret_access_key="SECRET",
 )
 
 client = session.resource("dynamodb")
@@ -67,8 +67,8 @@ while True:
                     "host": "email-smtp.eu-west-2.amazonaws.com",
                     "port": 587,
                     "timeout": 5,
-                    "user": "AKIAQSISZZFTL6EIHPHL",
-                    "password": "BB9H3NCJkH4YyCpEEmudNmAQha6jsjV58dhfgTfNw7e3",
+                    "user": "SECRET",
+                    "password": "SECRET",
                     "tls": True,
                 },
             )
